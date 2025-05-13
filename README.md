@@ -67,3 +67,18 @@ You can use the provided `api.http` file to test both creating and listing order
 - gRPC
 - GraphQL (gqlgen)
 - Docker
+
+## Troubleshooting
+
+### Go Version Mismatch
+
+If you encounter errors related to Go version mismatch when running `docker compose up -d`, ensure that:
+
+1. The Go version in your `go.mod` file matches the version used in the Dockerfile
+2. The current version in `go.mod` is `go 1.20` to match the Docker image `golang:1.20-alpine`
+3. Alternatively, you can update the Dockerfile to use a newer Go version like `golang:1.24-alpine`
+
+To fix version mismatch issues, either:
+
+- Modify your go.mod file: `go 1.20` instead of a newer version
+- Update the Dockerfile to use a newer Go version

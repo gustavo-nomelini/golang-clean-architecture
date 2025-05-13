@@ -1,6 +1,6 @@
 module github.com/gustavo-nomelini/golang-clean-architecture
 
-go 1.24.3
+go 1.20
 
 require (
 	github.com/99designs/gqlgen v0.17.73
