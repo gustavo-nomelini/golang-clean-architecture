@@ -3,7 +3,7 @@ package graphql
 import (
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/gin-gonic/gin"
-	"github.com/prodbygus/golang-clean-architecture/internal/usecase"
+	"github.com/gustavo-nomelini/golang-clean-architecture/internal/usecase"
 )
 
 // OrderResolver is the resolver for order operations

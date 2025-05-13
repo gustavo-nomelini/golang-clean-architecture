@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/prodbygus/golang-clean-architecture/internal/usecase"
+	"github.com/gustavo-nomelini/golang-clean-architecture/internal/usecase"
 )
 
 type OrderHandler struct {

@@ -3,7 +3,7 @@ package grpc
 import (
 	"context"
 
-	"github.com/prodbygus/golang-clean-architecture/internal/usecase"
+	"github.com/gustavo-nomelini/golang-clean-architecture/internal/usecase"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

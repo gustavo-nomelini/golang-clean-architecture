@@ -7,11 +7,11 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/prodbygus/golang-clean-architecture/internal/infra/database"
-	"github.com/prodbygus/golang-clean-architecture/internal/infra/web/graphql"
-	"github.com/prodbygus/golang-clean-architecture/internal/infra/web/grpc"
-	"github.com/prodbygus/golang-clean-architecture/internal/infra/web/rest"
-	"github.com/prodbygus/golang-clean-architecture/internal/usecase"
+	"github.com/gustavo-nomelini/golang-clean-architecture/internal/infra/database"
+	"github.com/gustavo-nomelini/golang-clean-architecture/internal/infra/web/graphql"
+	"github.com/gustavo-nomelini/golang-clean-architecture/internal/infra/web/grpc"
+	"github.com/gustavo-nomelini/golang-clean-architecture/internal/infra/web/rest"
+	"github.com/gustavo-nomelini/golang-clean-architecture/internal/usecase"
 	ggrpc "google.golang.org/grpc"
 )
 

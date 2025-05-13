@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/prodbygus/golang-clean-architecture/internal/domain/entity"
+	"github.com/gustavo-nomelini/golang-clean-architecture/internal/domain/entity"
 	"gorm.io/gorm"
 )
 
